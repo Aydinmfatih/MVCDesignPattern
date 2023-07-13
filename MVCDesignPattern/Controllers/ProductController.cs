@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MVCDesignPattern.Models;
 
 namespace MVCDesignPattern.Controllers
 {
@@ -6,7 +7,7 @@ namespace MVCDesignPattern.Controllers
     {
         public IActionResult GetProducts()
         {
-
+            var product = new Product();
             return View();
         }
     }
