@@ -10,5 +10,10 @@ namespace MVCDesignPattern.Controllers
             var product = new Product();
             return View();
         }
+        [NonAction]
+        public void X()
+        {
+
+        }
     }
 }
